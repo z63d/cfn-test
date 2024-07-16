@@ -1,6 +1,3 @@
-AWSTemplateFormatVersion: '2010-09-09'
-Resources:
-  FirstVPC:
-    Type: AWS::EC2::VPC
-    Properties:
-      CidrBlock: 10.10.0.0/16
+template-file-path: resource-template.yaml
+parameters: {}
+tags: {}
